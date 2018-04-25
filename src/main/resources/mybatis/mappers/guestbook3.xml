@@ -3,6 +3,16 @@
 
 <mapper namespace="guestbook3">
 	
-	<!– 쿼리문 작성 -->
-
+<insert id="insert" parameterType="com.javaex.vo.GuestbookVo">
+		<![CDATA[            
+		insert into emaillist
+		values (guestbook_seq.nextval, 
+				#{name},
+				#{password},
+				#{content},
+				#{reg_date}
+				)
+		]]>
+		
+		</insert>
 </mapper>

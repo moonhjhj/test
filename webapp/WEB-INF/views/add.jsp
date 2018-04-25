@@ -1,7 +1,7 @@
 <%@page import="java.sql.Date"%>
 <%@page import="java.text.DateFormat"%>
 <%@page import="java.text.SimpleDateFormat"%>
-<%@page import="com.javaex.dao.GuestbookDao"%>
+<%@page import="com.javaex.dao.GuestbookDaoOld"%>
 <%@page import="com.javaex.vo.GuestbookVo"%>
 <%
 
